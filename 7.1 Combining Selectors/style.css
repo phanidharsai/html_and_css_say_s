@@ -1,0 +1,27 @@
+/* Write your code here: */
+
+/* grouping two elements with different tags */
+h1, h2{
+    color: blueviolet;
+}
+
+/* p is direct child of box class */
+.box > p{
+    color: firebrick;
+}
+
+/* li are descendants of box class may be direct may not be direct  */
+.box li{
+    color: blue;
+}
+
+/* chaining applies where all selectors are true */
+
+li.done{
+    color: seagreen;
+}
+
+/* combining combiners */
+ul p.done{
+    color:orange;
+}
